@@ -15,9 +15,6 @@ setup(
     author_email="A.Palaniswamy@gmail.com",
     description=DESCRIPTION,
     packages=find_packages(),
-    package_data={
-        "main": ["configs/main.yaml"],
-    },
     install_requires=[],
     keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
     classifiers=[
