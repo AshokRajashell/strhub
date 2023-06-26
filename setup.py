@@ -17,6 +17,11 @@ setup(
     packages=find_packages(),
     package_data={
         "main": ["configs/main.yaml"],
+        "abinet":["configs/model/abinet.yaml"],
+        "crnn":["configs/model/crnn.yaml"],
+        "parseq":["configs/model/parseq.yaml"],
+        "trba":["configs/model/trba.yaml"],
+        "vitstr":["configs/model/vitstr.yaml"],
     },    
     install_requires=[],
     keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
