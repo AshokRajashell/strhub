@@ -15,7 +15,7 @@ setup(
     author_email="A.Palaniswamy@gmail.com",
     description=DESCRIPTION,
     packages=find_packages(),
-    package_name={"strhub":["configs/main.yaml","configs/model/abinet.yaml","configs/model/crnn.yaml","configs/model/parseq.yaml","configs/model/trba.yaml","configs/model/vitstr.yaml"]},    
+    package_data={"strhub":["configs/main.yaml","configs/model/abinet.yaml","configs/model/crnn.yaml","configs/model/parseq.yaml","configs/model/trba.yaml","configs/model/vitstr.yaml"]},    
     install_requires=[],
     keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
     classifiers=[
