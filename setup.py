@@ -4,7 +4,7 @@ import os
 
 
 
-VERSION = '1.0.4'
+VERSION = '1.0.7'
 DESCRIPTION = 'strhub'
 
 # Setting up
@@ -15,7 +15,8 @@ setup(
     author_email="A.Palaniswamy@gmail.com",
     description=DESCRIPTION,
     packages=find_packages(),
-    package_data={"strhub":["configs/main.yaml","configs/model/abinet.yaml","configs/model/crnn.yaml","configs/model/parseq.yaml","configs/model/trba.yaml","configs/model/vitstr.yaml"]},    
+    package_data={"strhub":["configs/main.yaml","configs/model/*","models/abinet/*","models/crnn/*","models/parseq/*",
+                           "models/trba/*","models/vitstr/*","models/*.py"]},    
     install_requires=[],
     keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
     classifiers=[
