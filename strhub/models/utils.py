@@ -24,9 +24,7 @@ _WEIGHTS_URL = {
 
 def _get_config(experiment: str, **kwargs):
     """Emulates hydra config resolution"""
-    root = PurePath(strhub.__file__).parents[0]
-    # root = PurePath(__file__).parents[2]
-    print("root",root)
+    root = PurePath(__file__).parents[0]
     with open(root / 'configs/main.yaml', 'r') as f:
         config = yaml.load(f, yaml.Loader)['model']
     with open(root / f'configs/charset/94_full.yaml', 'r') as f:
